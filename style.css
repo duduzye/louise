@@ -7,15 +7,15 @@ body {
 }
 
 html, body {
-    height: 100%; /* Garante que o body ocupe 100% da altura */
+    height: 100%; 
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Define o layout em coluna */
+    flex-direction: column;
 }
 
 main {
-    flex: 1; /* Faz o main crescer para ocupar o espaço disponível */
+    flex: 1; 
 }
 
 header {
@@ -123,38 +123,19 @@ nav a:hover {
     color: #d2691e;
 }
 
-.contato {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 80vh; /* Ajusta a altura para centralizar verticalmente */
-    margin: 0 auto;
-}
-
-.contato h1 {
-    margin-bottom: 20px;
-}
-
-.contato p {
-    margin: 10px 0;
-    font-size: 1.2rem;
-}
-
 .contato i {
-    color: #d2691e; /* Cor dos ícones */
-    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    color: #d2691e; 
+    margin-right: 8px; 
 }
 
 .contato a {
-    color: #7b4029; /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado */
+    color: #7b4029;
+    text-decoration: none;
     font-weight: bold;
 }
 
 .contato a:hover {
-    color: #d2691e; /* Cor do link ao passar o mouse */
+    color: #d2691e; 
 }
 
 .banner {
@@ -177,9 +158,9 @@ nav a:hover {
 }
 
 #theme-toggle {
-    position: fixed; /* Fixa o botão na tela */
-    top: 10px; /* Distância do topo */
-    right: 10px; /* Distância da direita */
+    position: fixed; 
+    top: 10px; 
+    right: 10px;
     background-color: #ffb6b9;
     color: #fff;
     border: none;
@@ -189,7 +170,7 @@ nav a:hover {
     font-size: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s, color 0.3s;
-    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    z-index: 1000; 
 }
 
 #theme-toggle:hover {
@@ -480,6 +461,25 @@ body.dark-mode #theme-toggle {
     max-width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh; 
+    margin: 0 auto;
+}
+
+.contato h1 {
+    margin-bottom: 20px;
+}
+
+.contato p {
+    margin: 10px 0;
+    font-size: 1.2rem;
 }
 
 footer {
