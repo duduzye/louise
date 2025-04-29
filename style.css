@@ -385,6 +385,84 @@ body.dark-mode #theme-toggle {
     color: #5c3a21;
 }
 
+.grade-bolos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.bolo-item, .brigadeiro-item {
+    text-align: center;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.bolo-item img, .brigadeiro-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.bolo-item img:hover, .brigadeiro-item img:hover {
+    transform: scale(1.05);
+}
+
+.bolo-item h3, .brigadeiro-item h3 {
+    font-size: 1.2rem;
+    color: #7b4029;
+    margin: 0.5rem 0;
+}
+
+.bolo-item p, .brigadeiro-item p {
+    font-size: 1rem;
+    color: #5c3a21;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 2rem;
+    color: #7b4029;
+    margin-bottom: 1.5rem;
+}
+
+.detalhes-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.resumo {
+    max-width: 50%;
+}
+
+.resumo h1 {
+    font-size: 2rem;
+    color: #7b4029;
+    margin-bottom: 1rem;
+}
+
+.resumo p {
+    font-size: 1rem;
+    color: #5c3a21;
+    margin-bottom: 1rem;
+}
+
+.resumo .preco {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #d2691e;
+}
+
+.imagem-produto img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     background-color: #ffb6b9;
     padding: 1rem;
